@@ -1,0 +1,53 @@
+.firstAbout{
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    left: 46%;
+    right: 46%;
+    font-size: 2rem;
+}
+
+
+
+.aboutText{
+    display: inline-block;
+    width:55%;
+    position: absolute;
+    left:0;
+    padding-left: 10px;
+    
+}
+
+.rightAboutDiv{
+    display: inline-block;
+    width: 40%;
+    position: absolute;
+    right:0;
+    text-align: center;
+}
+
+hr{
+    width:80%;
+}
+
+.rightAbout{
+    background-color:rgb(21, 86, 4);
+    border-radius: 7px;
+    color: white;
+    width: 30%;
+    height:30%;
+    position: relative;
+    left: 35%;
+    right: 35%;
+    padding: 10px 0;
+    margin-bottom: 8%;
+}
+
+img{
+    width: 96%;
+    height: 520px;
+    padding-bottom: 5%;
+    position: relative;
+    right: 2%;
+    left: 2%;
+}
