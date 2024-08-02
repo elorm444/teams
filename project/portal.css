@@ -1,0 +1,48 @@
+html{
+    font-size: 16px;
+}
+.portalSection{
+    background-image: url('images/win11.jpg');
+    width: 90vw;
+    height: 75vh;
+    color: white;
+    padding: 8vh;
+    margin: auto;
+    font-size: 0.9rem;
+}
+
+h1{
+    font-size: 4rem;
+    padding-bottom:0;
+    margin-bottom: 0;
+}
+.redButton{
+    display:inline-block;
+    text-decoration: none;
+    width: 20vw;
+    height: 6vh;
+    padding: 0.5rem;
+    color:rgb(255, 255, 255);
+    background-color: red;
+    text-align: center;
+    border-radius:0.75vw ;
+    font-size: 1rem;
+    margin: 2rem 1rem 0 0;
+}
+
+.blueButton{
+    display:inline-block;
+    text-decoration: none;
+    width: 20vw;
+    height: 6vh;
+    padding: 0.5rem;
+    color:rgb(255, 255, 255);
+    background-color: green;
+    text-align: center;
+    border-radius:0.75vw ;
+    font-size: 1rem;
+}
+
+p{
+    width: 70%;
+}
