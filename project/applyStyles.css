@@ -3,26 +3,31 @@ html{
 
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* Navigation bar */
 .navbar {
-    background-color: #fff; 
-    padding: 10px 0;
+    background-color: #d6d7b1; 
+    padding: 0 0;
     position: fixed;
-    width: 100%; 
+    width: 100vw; 
+    height: 2.5rem;
     top: 0; 
     left: 0; 
     z-index: 1000; 
 }
 
 .logo{
-    width: 50px;
-    height: 50px;
-    margin-right: 50px;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin: 0;
     top: 0;
-    padding: 10px 0;
-    top: 0; 
     left: 0; 
-    justify-content: center;
 }
 
 /* Navigation list */
