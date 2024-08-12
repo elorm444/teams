@@ -3,6 +3,105 @@ html{
 
 }
 
+/* Navigation bar */
+.navbar {
+    background-color: #fff; 
+    padding: 10px 0;
+    position: fixed;
+    width: 100%; 
+    top: 0; 
+    left: 0; 
+    z-index: 1000; 
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-right: 50px;
+    top: 0;
+    padding: 10px 0;
+    top: 0; 
+    left: 0; 
+    justify-content: center;
+}
+
+/* Navigation list */
+.nav-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: nowrap; 
+}
+
+/* Navigation item */
+.nav-item {
+    position: relative; 
+    margin: 0 15px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #333; 
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: flex; 
+    align-items: center; 
+    transition: background-color 0.3s, color 0.3s;
+    min-width: 110%;
+}
+
+/* Dropdown icon */
+.dropdown-icon {
+    margin-left: 3px; 
+    cursor: pointer;
+}
+
+
+/* Apply Now button */
+.apply-now {
+    background-color: #e74c3c; 
+    color: #fff; 
+    min-width: 110%;
+}
+
+.apply-now:hover {
+    background-color: #c0392b; 
+}
+
+/* Dropdown content */
+.dropdown-content {
+    display: none; 
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 210px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    flex-direction: column; 
+    font-size: smaller;
+    font-weight: lighter;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    min-width: 100%;
+}
+
+.nav-item.active .dropdown-content {
+    display: flex;
+}
+
+/* Active dropdown */
+.nav-item.active .dropdown-content {
+    display: flex; 
+}
+
 .applicationThing{
     background-color: rgba(230, 230, 230, 0.575);
     text-align: center;
