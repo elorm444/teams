@@ -48,10 +48,10 @@ hr{
 }
 
 img{
-    width: 96%;
-    height: 520px;
+    width: 96vw;
+    height:75vh ;
     padding-bottom: 5%;
     position: relative;
-    right: 2%;
-    left: 2%;
+    right: 1vw;
+    left: 1vw;
 }
