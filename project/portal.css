@@ -100,10 +100,11 @@ html{
 .nav-item.active .dropdown-content {
     display: flex; 
 }
+
 .portalSection{
     background-image: url('images/win11.jpg');
     width: 90vw;
-    height: 75vh;
+    height: 70vh;
     color: white;
     padding: 8vh;
     margin: auto;
@@ -114,6 +115,8 @@ h1{
     font-size: 4rem;
     padding-bottom:0;
     margin-bottom: 0;
+    position: relative;
+    top:3%;
 }
 .redButton{
     display:inline-block;
