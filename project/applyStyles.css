@@ -11,14 +11,14 @@ html{
 
 .applicationThing>hr{
     width: 95%;
-    padding-bottom: 10px;
+    padding-bottom: 0.75rem;
     padding-top: 0%;
-    display: solid black 5px;
+    display: solid black 0.333rem;
 }
 
 .applicationThing>h1{
     font-size: 2rem;
-    padding-bottom: 0%;
+    padding-bottom: 0;
     border-bottom: 0;
     margin: 0;
 }
@@ -26,9 +26,11 @@ html{
 .circlePart{
     display: inline-block;
     background-color: rgb(192, 192, 192);
-    width: 350px;
-    height: 350px;
-    border-radius: 175px;
+    width: 22rem;
+    height: 22rem;
+    border-radius: 11rem;
     border-color: white;
-    margin: 50px 50px;
+    margin: 3rem 3rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
