@@ -2,6 +2,7 @@ html{
     font-size: 16px;
 }
 
+
 * {
     margin: 0;
     padding: 0;
@@ -13,13 +14,14 @@ body {
     background-color: white;
     margin: 0;
 }
+
 /* Navigation bar */
 .navbar {
     background-color: #e8e9cd; 
     padding: 0 0;
     position: fixed;
     width: 100vw; 
-    height: 4.5rem;
+    height: 4rem;
     top: 0; 
     left: 0; 
     z-index: 1000;
@@ -41,8 +43,9 @@ body {
     justify-content: right;
     list-style: none;
     flex-wrap: nowrap; 
-    position: relative;
+    position: fixed;
     right: 2rem;
+    top:2rem;
 }
 
 /* Navigation item */

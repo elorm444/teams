@@ -2,6 +2,7 @@ html{
     font-size: 16px;
 }
 
+
 * {
     margin: 0;
     padding: 0;
@@ -13,13 +14,15 @@ body {
     background-color: white;
     margin: 0;
 }
+
 /* Navigation bar */
 .navbar {
-    background-color: #e8e9cd; 
+    background-color: #f7f8ef; 
+    display: block;
     padding: 0 0;
     position: fixed;
     width: 100vw; 
-    height: 4.5rem;
+    height: 4rem;
     top: 0; 
     left: 0; 
     z-index: 1000;
@@ -41,8 +44,9 @@ body {
     justify-content: right;
     list-style: none;
     flex-wrap: nowrap; 
-    position: relative;
+    position: fixed;
     right: 2rem;
+    top:2rem;
 }
 
 /* Navigation item */
@@ -114,13 +118,23 @@ body {
     display: flex; 
 }
 
+.aboutDiv{
+    display: block;
+    position: relative;
+    width: 95vw;
+    padding-top: 4rem;
+
+}
 .firstAbout{
-    display: inline-block;
+    display:inline-block;
     text-align: center;
     position: relative;
     left: 46%;
     right: 46%;
     font-size: 2rem;
+    z-index: 100;
+    padding-bottom: 0.5rem;
+    
 }
 
 
@@ -161,9 +175,88 @@ hr{
 
 img{
     width: 96vw;
-    height:75vh ;
+    height:40rem ;
     padding-bottom: 5%;
     position: relative;
     right: 1vw;
     left: 1vw;
+}
+
+/* Footer styling */
+.footer {
+    display: block;
+    width: 100%;
+    background-color:whitesmoke;
+    color: black;
+    padding: 1.2rem 0;
+    text-align: center;
+   
+}
+
+.footer-logo {
+    margin-bottom: 20px;
+    
+}
+
+.footer-logo .logo {
+    max-width: 100px;
+}
+
+.footer-logo .logo-underline {
+    width: 100%;
+    border: 1px solid black;
+    margin: 10px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+    flex: 1;
+    padding: 10px;
+}
+
+.footer-center {
+    text-align: center;
+}
+
+.footer-left p,
+.footer-center a,
+.footer-right a {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: black;
+}
+
+.footer-right a {
+    text-decoration: underline;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-left,
+    .footer-center,
+    .footer-right {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .box-container {
+        flex-direction: column;
+    }
+
+    .box {
+        margin: 10px 0;
+    }
 }
