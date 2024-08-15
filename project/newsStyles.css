@@ -120,6 +120,8 @@ body {
 h1{
   font-family: 'Times New Roman';
   text-align: center;
+  position: relative;
+  padding: 5rem;
 }
 
 h2{
@@ -129,14 +131,120 @@ h2{
 div{
   display: inline-block;
   margin:4rem;
+  
 }
 
 div>img{
     width:21.8rem;
     height:23.1rem;
     border-radius: 0.33rem;
+    
 }
 
 div>img:hover{
     border: solid black 0.1rem;
+}
+
+/* Footer styling */
+
+.footer {
+  background-color: rgb(252, 252, 252);
+  color: black;
+  padding: 1.2rem 0;
+  text-align: center;
+  position: relative;
+  flex-shrink: 0;
+}
+
+
+
+.footer-logo {
+  margin-bottom: 20px;
+}
+
+
+
+.footer-logo .logo {
+  max-width: 100px;
+  margin: 0.5rem;
+}
+
+
+
+.footer-logo .logo-underline {
+  width: 100%;
+  border: 1px solid black;
+  margin: 10px 0;
+}
+
+
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  
+}
+
+
+
+.footer-left,
+.footer-center,
+.footer-right {
+  flex: 1;
+  padding: 10px;
+}
+
+
+
+.footer-center {
+  text-align: center;
+}
+
+
+
+.footer-left p,
+.footer-center a,
+.footer-right a {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: black;
+}
+
+
+
+.footer-right a {
+  text-decoration: underline;
+}
+
+
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .footer-content {
+      flex-direction: column;
+      align-items: center;
+  }
+
+
+
+  .footer-left,
+  .footer-center,
+  .footer-right {
+      text-align: center;
+      padding: 10px;
+  }
+
+
+
+  .box-container {
+      flex-direction: column;
+  }
+
+
+
+  .box {
+      margin: 10px 0;
+  }
 }
