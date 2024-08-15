@@ -118,6 +118,14 @@ body {
     display: flex; 
 }
 
+.mainAboutDiv{
+    display: block;
+    width: 100%;
+    position: relative;
+    margin-bottom: auto;
+    height: 70vh;
+}
+
 .aboutDiv{
     display: block;
     position: relative;
@@ -131,9 +139,10 @@ body {
     position: relative;
     left: 46%;
     right: 46%;
-    font-size: 2rem;
+    font-size: 2.4rem;
     z-index: 100;
     padding-bottom: 0.5rem;
+    padding-top: 1rem;
     
 }
 
@@ -150,10 +159,14 @@ body {
 
 .rightAboutDiv{
     display: inline-block;
-    width: 40%;
+    width: 35%;
     position: absolute;
     right:0;
     text-align: center;
+   
+}
+.rightAboutDiv>h4{
+    padding: 0.2rem;
 }
 
 hr{
@@ -164,13 +177,13 @@ hr{
     background-color:rgb(21, 86, 4);
     border-radius: 0.4rem;
     color: white;
-    width: 30%;
+    width: 35%;
     height:30%;
     position: relative;
     left: 35%;
     right: 35%;
     padding: 10px 0;
-    margin-bottom: 8%;
+    margin-bottom: 8px;
 }
 
 img{
@@ -183,30 +196,38 @@ img{
 }
 
 /* Footer styling */
+
 .footer {
-    display: block;
-    width: 100%;
-    background-color:whitesmoke;
+    background-color: whitesmoke;
     color: black;
-    padding: 1.2rem 0;
+    padding: 20px 0;
     text-align: center;
-   
+    position: relative;
+    flex-shrink: 0;
+
 }
+
+
 
 .footer-logo {
     margin-bottom: 20px;
-    
 }
+
+
 
 .footer-logo .logo {
     max-width: 100px;
 }
+
+
 
 .footer-logo .logo-underline {
     width: 100%;
     border: 1px solid black;
     margin: 10px 0;
 }
+
+
 
 .footer-content {
     display: flex;
@@ -215,6 +236,8 @@ img{
     text-align: left;
 }
 
+
+
 .footer-left,
 .footer-center,
 .footer-right {
@@ -222,9 +245,13 @@ img{
     padding: 10px;
 }
 
+
+
 .footer-center {
     text-align: center;
 }
+
+
 
 .footer-left p,
 .footer-center a,
@@ -234,9 +261,13 @@ img{
     color: black;
 }
 
+
+
 .footer-right a {
     text-decoration: underline;
 }
+
+
 
 /* Media Queries for responsiveness */
 @media (max-width: 768px) {
@@ -245,6 +276,8 @@ img{
         align-items: center;
     }
 
+
+
     .footer-left,
     .footer-center,
     .footer-right {
@@ -252,9 +285,13 @@ img{
         padding: 10px;
     }
 
+
+
     .box-container {
         flex-direction: column;
     }
+
+
 
     .box {
         margin: 10px 0;
