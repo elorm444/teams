@@ -169,23 +169,24 @@ body {
 
 
 .background-image {
-    background-image: url('bgpic.jpeg'); /* Add the path to your background image here */
+    background-image: url('images/pcGirl.jpg'); /* Add the path to your background image here */
     background-size: cover;
-    background-position: rela;
-    padding: 100px 20px;
+    background-position: relative;
     text-align: center;
     position: relative; /* Make position relative for absolutely positioned boxes */
-    height: 52.5%; /* Adjust the height as needed */
-    width: 90vw;
+    height: 40rem; /* Adjust the height as needed */
+    width: 100vw;
+    top: 4rem;
+
 }
 
 .overlay{
     position: absolute;
     top: 4rem;
     left: 0;
-    width: 100%;
-    height: 25rem;
-    background: rgba(100, 238, 144, 0.5) ;
+    width: 100vw;
+    height: 40rem;
+    background: rgba(199, 246, 214, 0.311) ;
     z-index: 1;
     background-size: contain;
 
@@ -193,7 +194,7 @@ body {
 
 .box-container {
     position: relative;
-    bottom: -4rem;  /* Position the boxes towards the bottom */
+    bottom: -35rem;  /* Position the boxes towards the bottom */
     left: 50%;
     transform: translateX(-50%);
     display: flex;
