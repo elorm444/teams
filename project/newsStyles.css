@@ -17,7 +17,7 @@ body {
 
 /* Navigation bar */
 .navbar {
-  background-color: #e8e9cd; 
+  background-color: #f7f8ef; 
   padding: 0 0;
   position: fixed;
   width: 100vw; 
@@ -128,20 +128,20 @@ h2{
   font-family: 'Times New Roman';
 }
 
-div{
+.news{
   display: inline-block;
   margin:4rem;
   
 }
 
-div>img{
+.news>img{
     width:21.8rem;
     height:23.1rem;
     border-radius: 0.33rem;
     
 }
 
-div>img:hover{
+.news>img:hover{
     border: solid black 0.1rem;
 }
 
@@ -154,6 +154,7 @@ div>img:hover{
   text-align: center;
   position: relative;
   flex-shrink: 0;
+ 
 }
 
 
@@ -184,7 +185,7 @@ div>img:hover{
   justify-content: space-between;
   align-items: center;
   text-align: left;
-  
+
 }
 
 
