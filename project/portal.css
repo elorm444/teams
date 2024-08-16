@@ -118,7 +118,7 @@ body {
 }
 
 .portalSection{
-    background-image: url('images/win11.jpg');
+    background-image: url('images/libraryGirl.jpg');
     width: 98vw;
     height: 70vh;
     color: white;
@@ -155,7 +155,7 @@ h1{
     margin: 2rem 1rem 0 0;
 }
 
-.blueButton{
+.greenButton{
     display:inline-block;
     text-decoration: none;
     width: 20vw;

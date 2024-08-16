@@ -167,10 +167,12 @@ body {
 }
 .rightAboutDiv>h4{
     padding: 0.2rem;
+    font-size: 1.2rem;
 }
 
 hr{
-    width:80%;
+    width:90%;
+    text-align: center;
 }
 
 .rightAbout{
@@ -184,6 +186,7 @@ hr{
     right: 35%;
     padding: 10px 0;
     margin-bottom: 8px;
+    
 }
 
 img{
