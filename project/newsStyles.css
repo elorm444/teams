@@ -160,7 +160,7 @@ h2{
 
 
 .footer-logo {
-  margin-bottom: 20px;
+  margin-bottom: 1.2rem;
 }
 
 
@@ -175,7 +175,7 @@ h2{
 .footer-logo .logo-underline {
   width: 100%;
   border: 1px solid black;
-  margin: 10px 0;
+  margin: 0.8rem 0;
 }
 
 
@@ -194,7 +194,7 @@ h2{
 .footer-center,
 .footer-right {
   flex: 1;
-  padding: 10px;
+  padding: 0.8rem;
 }
 
 
@@ -208,8 +208,8 @@ h2{
 .footer-left p,
 .footer-center a,
 .footer-right a {
-  margin-bottom: 10px;
-  font-size: 14px;
+  margin-bottom: 0.8rrem;
+  font-size: 0.9rem;
   color: black;
 }
 
@@ -234,7 +234,7 @@ h2{
   .footer-center,
   .footer-right {
       text-align: center;
-      padding: 10px;
+      padding: 0.8rem;
   }
 
 
@@ -246,6 +246,6 @@ h2{
 
 
   .box {
-      margin: 10px 0;
+      margin: 0.8rem 0;
   }
 }
